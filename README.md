@@ -17,3 +17,5 @@ kubectl create -f result-app-service.yml
 kubectl create -f redis-service.yml
 kubectl create -f postgres-service.yml
 ```
+
+Access http://localhost:30004 for the voting app and http://localhost:30005 for the result app.
